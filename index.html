@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body onload="popup();">
         <table>
             <tr>
                 <th>
@@ -23,6 +23,10 @@
             {
                 var num = Math.floor(Math.random() * (591 - 30) + 30); // 30-591
                 document.rahmen.src = 'images ('+ num + ').jpeg';
+            }
+            function popup()
+            {
+                window.alert("Hallo Mama,\nzum Geburtstag habe ich die ersten 591 Bilder, die Google bei der Suche nach lustigen Katzenfotos vorschlägt extrahiert und auf dieser Seite zur verfügung gestellt.\nKlicke den Knopf, um ein neues Katzenbild angezeigt zu bekommen.\nViel Spaß und alles gute zum Geburtstag!");
             }
         </script>
     </body>
