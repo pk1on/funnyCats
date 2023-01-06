@@ -22,7 +22,7 @@ body
 .button {
     background-color: rgb(156, 243, 255);
     color: black;
-    border: 10px solid black;
+    border: 2vw solid rgb(106, 161, 168);
     border-radius: 8px;
     font-size: 15vw;
     font-family: "Comic Sans MS";
